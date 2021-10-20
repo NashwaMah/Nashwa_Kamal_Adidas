@@ -45,12 +45,14 @@ Will be found in ../APITest/Product API List of Bugs.xlsx file
 ------------------------------------------------
 For the project I used axios to implement the API tests and used testcafe for assertions and validate the responses , 
 The files structure as below :
+
       1)	Models/ Pages folder that contains Page for each Api function separately
                 a)	Create product API
                 b)	Update Product API
                 c)	Delete Product API
                 d)	Get all products API and Get Product By ID API in the same file  
                 e)	Price Engine API
+                
       2)	Test helpers/testdata contains json file with bodies needed to the API requests
                 a)	Price-list-engine json 
                 b)	Product-data.json
