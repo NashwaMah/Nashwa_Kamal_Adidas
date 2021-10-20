@@ -56,9 +56,9 @@ The files structure as below :
             b)	Product-data.json
 
       3)	Tests folder that contains all tests files 
-          a)	CreateProduct .test.js Contains below test cases :
-                •	Create product 
-                •	Create multiple products from array in json file ( using data driven )
+            a)	CreateProduct .test.js Contains below test cases :
+                  •	Create product 
+                  •	Create multiple products from array in json file ( using data driven )
             b)	GetProducts.test.js Contains below test cases:
                    •	Get all products 
                    •	Get product by id
@@ -67,7 +67,7 @@ The files structure as below :
                    •	Update product by id
             d)	GetProductPrice.test.js Contains below testcases:
                    •	Get product price
-             e)	DeleteProduct.test.js Contains below testcases:
+            e)	DeleteProduct.test.js Contains below testcases:
                     •	Delete product by id
                     •	Delete non exist product by id ( unhappy scenario )
                     •	Delete multiple products ( from array in json file ( using data driven )
