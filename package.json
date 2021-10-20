@@ -1,0 +1,25 @@
+{
+  "name": "productapi-project",
+  "version": "1.0.0",
+  "description": "product api automation",
+  "main": "index.js",
+  "scripts": {
+  
+    "test:api": "testcafe chrome:headless  ./APITest/tests  --skip-js-errors --disable-page-caching"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NashwaMah/Nashwa-Kamal"
+  },
+  "author": "Nashwa Kamal",
+  "license": "ISC",
+  "homepage": "https://github.com/NashwaMah/Nashwa-Kamal/blob/main/README.md",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "axios": "^0.21.4",
+    "dotenv": "^8.2.0",
+    "ffmpeg-installer": "^1.0.2",
+    "testcafe": "^1.14.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,65 @@
+{
+  "endpoint": "http://localhost:3001/",
+  "Products": [
+    {
+      "id": "1",
+      "name": "new product2",
+      "description": "new product"
+    },
+    {
+      "id": "2",
+      "name": "new product2",
+      "description": "new product"
+    },
+    {
+      "id": "3",
+      "name": "new product2",
+      "description": "new product"
+    },
+    {
+      "id": "4",
+      "name": "new product2",
+      "description": "new product"
+    },
+    {
+      "id": "5",
+      "name": "new product2",
+      "description": "new product"
+    }
+  ],
+  "DeleteProducts": [
+    {
+      "id": "6",
+      "name": "new product2",
+      "description": "new product"
+    },
+    {
+      "id": "7",
+      "name": "new product2",
+      "description": "new product"
+    }
+  ],
+  "deleteNonExist": "1232394873",
+  "GetProduct": {
+    "id": "8",
+    "name": "new product2",
+    "description": "new product"
+  },
+  "GetAllProducts": {
+    "id": "9",
+    "name": "new product2",
+    "description": "new product"
+  },
+  "UpdateProduct": [
+    {
+      "id": "10",
+      "name": "new product2 ",
+      "description": "new product "
+    },
+    {
+      "id": "10",
+      "name": "new product2 after Update",
+      "description": "new product after Update"
+    }
+  ]
+}

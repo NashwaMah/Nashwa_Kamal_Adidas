@@ -1,0 +1,7 @@
+{
+    "endpoint": "http://localhost:3000/",
+    "Product": {
+        "id": "2",
+        "acceptlanguage": "en-US"
+    }
+}
