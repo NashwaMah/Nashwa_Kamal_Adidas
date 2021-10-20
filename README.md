@@ -1,10 +1,5 @@
 # Nashwa-Kamal
-
-# Application bug list 
-
-Will be found in ../APITest/Product API List of Bugs.xlsx file 
-
-------------------------
+------------------
 
 # Automation Project
 
