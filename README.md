@@ -20,16 +20,21 @@
           sudo  npm start
           npm install testcafe
           npm install axios
-          
+          npm install testcafe-reporter-allure
+          npm install -g allure-commandline        
                                   
-
 --------------------------------                    
    
 * To Run Product API Test :
 
-      npm run test:API
+      npm run test:API --reporter allure
 
------------------------------               
+-----------------------------    
+
+* To Generate Allure report :
+     
+       allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report
+-----------------------------
 
 * To Update Test data for APIs  :
 
@@ -68,4 +73,6 @@ The files structure as below :
                     •	Delete product by id
                     •	Delete non exist product by id ( unhappy scenario )
                     •	Delete multiple products ( from array in json file ( using data driven )
+
+
 
